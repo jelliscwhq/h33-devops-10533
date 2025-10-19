@@ -27,21 +27,27 @@
 
         </div>
         <div class="content">
-            <iframe id="i_content" src="oak_content.html"
+            <iframe id="i_content" src="oak_content.html" src="beech_content.html"
                     width="1000px" 
                     >
             </iframe>
         </div>
         <div class="summary">
-            <iframe  id="i_summary" src="oak_summary.html">
+              <iframe id="i_summary" src="oak_summary.html"
+                    width="1000px" 
+                    >
             </iframe>
+            
         </div>
+    </div>
 
     </div>
 
-
-
-    </div>
+              
+            
+            
+              
+                
 
 
     <script>
@@ -50,7 +56,8 @@
             $("#i_summary").attr("src","oak_summary.html");
         })
         $("#beech").click(function(){
-
+         $("#i_content").attr("src","beach_content.html");
+         $("#i_summary").attr("src","beach_summary.html");
 
         })
 
