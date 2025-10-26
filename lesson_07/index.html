@@ -24,10 +24,11 @@
             <h3>Index</h3>
             <p><button id="oak">Oak</button></p>
             <p><button id="beech">Beech</button></p>
+            <p><button id="pine">Pine</button></p>
 
         </div>
         <div class="content">
-            <iframe id="i_content" src="oak_content.html" src="beech_content.html"
+            <iframe id="i_content" src="oak_content.html"
                     width="1000px" 
                     >
             </iframe>
@@ -58,7 +59,10 @@
         $("#beech").click(function(){
          $("#i_content").attr("src","beach_content.html");
          $("#i_summary").attr("src","beach_summary.html");
-
+        })
+        $("#Pine").click(function(){
+         $("#i_content").attr("src","Pine_content.html");
+         $("#i_summary").attr("src","Pine_summary.html");
         })
 
         /* This will not be merged !  */
